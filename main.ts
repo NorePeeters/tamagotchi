@@ -24,8 +24,6 @@ basic.forever(function () {
     if (knuffel < 0 || voeding < 0) {
         dood += 1
     }
-})
-basic.forever(function () {
     if (dood == 1) {
         basic.showIcon(IconNames.Asleep)
     }
